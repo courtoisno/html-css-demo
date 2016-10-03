@@ -1,11 +1,56 @@
-	h1 {
-			color: blue;
-		}
-		#moonheading {
-			color: grey;
-			background-color: black;
-		}
-		.list {
-			color: brown;
-			
-		}
+body {
+	font-family: 'Roboto', serif;
+	margin: 0, 0, 0 ,0 ;
+
+}
+
+a {
+  color: blue;
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#me {
+	font-weight: bold;
+		font-size: 350%;
+
+	margin-left: -50px;
+}
+
+#header {
+	font-family: 'Roboto', serif;
+}
+
+#contact {
+	font-size: 350%;
+	position: fixed;
+    bottom: 10px;
+  	right: 20px;
+  	text-decoration: underline;
+
+
+}
+
+#about {
+	font-size: 350%;
+	position: fixed;
+	top: 0; 
+	right: 20px;
+  	text-decoration: underline;
+
+	;
+}
+
+#contentabout {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+	margin-left: 700px;
+	margin-right: 0px;
+	font-size: 180%;
+}
