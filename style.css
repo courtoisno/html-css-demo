@@ -26,6 +26,9 @@ a {
 	font-family: 'Roboto', serif;
 }
 
+#contact:hover {
+	color: blue;
+}
 #contact {
 	font-size: 350%;
 	position: fixed;
@@ -36,6 +39,9 @@ a {
 
 }
 
+#about:hover{
+	color: blue;
+}
 #about {
 	font-size: 350%;
 	position: fixed;
@@ -43,14 +49,27 @@ a {
 	right: 20px;
   	text-decoration: underline;
 
-	;
 }
 
+#contactmore{
+	position: fixed;
+	bottom: 35px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+	margin-left: 700px;
+	margin-right: 0px;
+	font-size: 200%;
+	color: blue;
+}
 #contentabout {
+	position: fixed;
+	top: 67px; 
 	padding-top: 20px;
 	padding-bottom: 30px;
 	padding-left: 0px;
 	margin-left: 700px;
 	margin-right: 0px;
 	font-size: 180%;
+	color: blue;
 }

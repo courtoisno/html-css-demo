@@ -4,6 +4,10 @@ $( '#me' ).fadeOut(500)
 $('#me').fadeIn(500)
 
 $('#about').click( function () {
-	$ ("#contentabout").toggle ("slide");
+	$ ("#contentabout").slideToggle ("fast");
 });
 
+
+$( "#contact" ).click(function() {
+  $( "#contactmore" ).slideToggle( "fast" );
+});
