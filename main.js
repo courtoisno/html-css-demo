@@ -1,7 +1,10 @@
-
-		console.log ('hello helooo my friend!')
+$(document).ready(function(){
+	console.log ('hello helooo my friend!')
 $( '#me' ).fadeOut(500)
 $('#me').fadeIn(500)
+
+
+
 
 
 $( "#contact" ).click(function() {
@@ -12,3 +15,5 @@ $('#about').click( function () {
 	$ ("#contentabout").slideToggle ("fast");
 });
 
+
+})

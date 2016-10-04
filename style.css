@@ -8,12 +8,20 @@ img {
 	max-width: 100%;
 	width: 100%;
 }
-
-
+#contactmore, #contentabout {
+	opacity:0;
+}
 a {
   color: blue;
 }
 
+figcaption {
+	font-family: 'Roboto', serif;
+	font-size: 15px;
+	margin-top: 15px;
+	font-style: italic;
+
+}
 .container {
     padding-right: 0;
     padding-left: 0;
@@ -27,6 +35,14 @@ a {
 	width: 750px;
 	margin-left: -50px;
 	margin-top: 20px;
+}
+
+img.cycle-next {
+	cursor: url('./eyeball.png'), crosshair;
+}
+
+.Project2 {
+	margin-top: 30px;
 }
 
 #me {
