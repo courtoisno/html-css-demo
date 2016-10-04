@@ -3,11 +3,12 @@
 $( '#me' ).fadeOut(500)
 $('#me').fadeIn(500)
 
-$('#about').click( function () {
-	$ ("#contentabout").slideToggle ("fast");
-});
-
 
 $( "#contact" ).click(function() {
   $( "#contactmore" ).slideToggle( "fast" );
 });
+
+$('#about').click( function () {
+	$ ("#contentabout").slideToggle ("fast");
+});
+
