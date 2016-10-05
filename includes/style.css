@@ -22,13 +22,6 @@ a {
 }
 
 
-
-#contactmore, #contentabout {
-	display:none;
-}
-
-
-
 .container {
     padding-right: 0;
     padding-left: 0;
@@ -45,12 +38,14 @@ a {
 }
 
 img.cycle-next {
-	cursor: url('./eyeball.png'), crosshair;
+	cursor: url('eyeball 10.18.53.png'), crosshair;
 }
 
-.Project2, .Project3, .Project4, .Project5, .Project6 {
+.Project2, .Project3, .Project4, .Project5, .Project6, .Project7, .Project8, .Project9, .Project10 {
 	margin-top: 30px;
 }
+
+
 
 #me {
 	font-weight: bold;
@@ -58,6 +53,13 @@ img.cycle-next {
 
 	margin-left: -50px;
 }
+
+
+
+#contactmore, #contentabout {
+	display:none;
+}
+
 
 #header {
 	font-family: 'Roboto', serif;
@@ -74,12 +76,12 @@ img.cycle-next {
   	right: 20px;
   	text-decoration: underline;
 
-
 }
 
 #about:hover{
 	color: blue;
 }
+
 #about {
 	font-size: 350%;
 	position: fixed;
@@ -100,6 +102,7 @@ img.cycle-next {
 	font-size: 150%;
 	color: blue;
 }
+
 #contentabout {
 	position: fixed;
 	top: 67px; 
