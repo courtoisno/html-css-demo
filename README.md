@@ -1,4 +1,4 @@
-# html-css-demo //
+# html-css-demo // Realised in 1 week
 Project during the 12 weeks NYCDA web devlopment bootcamp.
 It was created within 1 week.
 
